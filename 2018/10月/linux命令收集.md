@@ -34,6 +34,9 @@ netstat -anp|grep 80
 >后台启动
 nohup process >/dev/null 2>/dev/null &
 
+>log日志查看
+cat mgr.log |grep -C 10 “xxx”
+
 
 
 
